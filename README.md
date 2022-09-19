@@ -34,6 +34,20 @@ Mixes non-modded minecraft with mods like Ex Nihilo for a enchanced experience i
 9. **grass grows on grass blocks over time, then into tall grass**
 10. **throwing eggs spawns in random mobs**
 
+# **Recipes**
+1. Wand of Nature  
+![wand of nature recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021368944566730782/unknown.png)
+
+2. Wand of Mana  
+![wand of mana recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021369253024243822/unknown.png)
+
+3. Darkwater  
+![darkwater recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021370842808066109/unknown.png)
+3. Lavabucket  
+![wand of mana recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021370871622934578/unknown.png)
+3. Leather  
+![wand of mana recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021370917265342534/unknown.png)
+
 # __**Ideas**__:
 These were contributed by the players of the plugin! Make a issue with a idea (if you're not in the discord)
 1. **certain soft blocks can either be crushed in item form or in block form by anvil or piston(pick most convenient way of crushing impl)**
@@ -52,5 +66,6 @@ These were contributed by the players of the plugin! Make a issue with a idea (i
 13. **suspicious stew with dark water bottle instead of flower ingredient(dark water effect)**
 14.  extension to egg throwing: there is a significantly smaller chance for an unemployed villager to spawn instead of a mob
 
-# Ideas for code clean up
+# **Ideas for code clean up**
 1. You should probably make a class called "Feature" and make it extend every feature and add shit to it yeah ok (for easier organizaztion and more)
+2. Anotther thing is to make a wand of nature you need string but to get string you need a wand of nature.. change that recipie..
