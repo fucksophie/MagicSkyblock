@@ -1,0 +1,4 @@
+name: MagicSkyblock
+version: 1.0
+api-version: 1.18
+main: lv.pi.MagicSkyblock.MagicSkyblock
