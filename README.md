@@ -36,17 +36,19 @@ Mixes non-modded minecraft with mods like Ex Nihilo for a enchanced experience i
 
 # **Recipes**
 1. Wand of Nature  
-![wand of nature recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021368944566730782/unknown.png)
+![wand of nature recipe](./assets/images/Recipe_wand_of_nature.png)
 
 2. Wand of Mana  
-![wand of mana recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021369253024243822/unknown.png)
+![wand of mana recipe](./assets/images/Recipe_wand_of_mana.png)
 
 3. Darkwater  
-![darkwater recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021370842808066109/unknown.png)
+![darkwater recipe](./assets/images/Recipe_darkwater.png)
+
 3. Lavabucket  
-![wand of mana recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021370871622934578/unknown.png)
+![lavabucket recipe](./assets/images/Recipe_lava_bucket.png)
+
 3. Leather  
-![wand of mana recipe](https://cdn.discordapp.com/attachments/1019541614407987200/1021370917265342534/unknown.png)
+![leather recipe](./assets/images/Recipe_leather.png)
 
 # __**Ideas**__:
 These were contributed by the players of the plugin! Make a issue with a idea (if you're not in the discord)

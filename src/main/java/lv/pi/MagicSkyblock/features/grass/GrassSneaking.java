@@ -1,5 +1,6 @@
 package lv.pi.MagicSkyblock.features.grass;
 
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.IntStream;
 
 import org.bukkit.block.Block;
@@ -10,7 +11,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerToggleSneakEvent;
 
-import io.netty.util.internal.ThreadLocalRandom;
 import lv.pi.MagicSkyblock.features.Utils;
 
 public class GrassSneaking implements Listener {
