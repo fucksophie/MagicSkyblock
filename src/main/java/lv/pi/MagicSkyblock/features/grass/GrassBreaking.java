@@ -38,15 +38,16 @@ public class GrassBreaking implements Listener {
     public void onBreakEvent(BlockBreakEvent event) {
         Block block = event.getBlock();
         if(block.getType().equals(Material.GRASS) || block.getType().equals(Material.TALL_GRASS)) {
+            Boolean greater = block.getType().equals(Material.TALL_GRASS);
             Location loc = block.getLocation();
             Location centerOfBlock = loc.add(0.5, 0.5, 0.5);
 
-            event.setExpToDrop(1);
+            event.setExpToDrop(greater ? 4 : 2);
             event.setDropItems(false);
             
             for(Integer x = 0; x < seeds.size()-1; x++) {
                 SeedType t = seeds.get(x);
-                if(Utils.randomNumber() <= (block.getType().equals(Material.TALL_GRASS) ? t.chance+0.01 : t.chance)) {
+                if(Utils.randomNumber() <= (t.chance+(greater ? 0.01 : 0))) {
                     event.getBlock().getWorld().dropItemNaturally(centerOfBlock, new ItemStack(t.seed));
                     break;
                 }
